@@ -7,7 +7,7 @@ Welcome to the **Training Tracker Web App** built by **Anjali Kumari** 💻 from
 ## 🌐 Live Demo
 
 🔗 View the project live at:  
-👉 **[https://anjali-folio.netlify.app](https://anjali-folio.netlify.app)**
+👉 **[https://anjali-daily-diary.netlify.app](https://anjali-daily-diary.netlify.app)**
 
 ---
 
