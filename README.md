@@ -7,13 +7,13 @@ Welcome to the **Training Tracker Web App** built by **Anjali Kumari** 💻 from
 ## 🌐 Live Demo
 
 🔗 View the project live at:  
-👉 **[https://anjali-daily-diary.netlify.app](https://anjali-daily-diary.netlify.app)**
+👉 **[Training Tracker](https://anjali-daily-diary.netlify.app)**
 
 ---
 
 ## 💡 Project Overview
 
-This project serves as a **Daily Training Diary** for documenting the progress of a 4-week training program. Users can easily navigate through a modern homepage and access daily records using a built-in date picker. All entries are displayed based on the selected date. The project emphasizes responsive design, accessibility, and smooth user interaction.
+This project serves as a **Daily Training Diary** for documenting the progress of my **4-week training on Hybrid App Development using React Native with Expo**. Users can easily navigate through a modern homepage and access daily records using a built-in date picker. All entries are displayed based on the selected date. The project emphasizes responsive design, accessibility, and smooth user interaction.
 
 ---
 
@@ -38,6 +38,12 @@ This project serves as a **Daily Training Diary** for documenting the progress o
 
 ## 📁 Files Structure
 
+📂 Training-Tracker
+- **index.html** → Homepage with intro and diary access
+- **index2.html** → Daily Diary with dynamic date sections
+- **style.css** → Custom CSS styling for all pages
+- **index.js** → JavaScript for date validation and section toggling
+
 
 
 ---
@@ -60,4 +66,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Feel free to open issues or pull requests for suggestions, improvements, or feedback! 🌟  
 If you liked this project, don't forget to ⭐ star the repo!
-
