@@ -1,0 +1,142 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffdfb;
+  margin: 0;
+  padding: 2rem;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Header */
+h1 {
+background: linear-gradient(to right, #003973, #E5E5BE);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Date Picker */
+label {
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+.date-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.date-row label {
+  margin-right: 8px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background: linear-gradient(to right, #0b3c5d, #005f73); /* matches header/teal */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+  background: linear-gradient(to right, #005f73, #0b3c5d);
+  transform: scale(1.05);
+}
+
+
+input[type="date"] {
+  color: #333;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+/* Sections */
+.section {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  margin-bottom: 2rem;
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+/* Notes */
+.note {
+  background-color: #f5f8fd;
+  border-left: 6px solid #a3b6e0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.note h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/* Lists */
+.note ul {
+  padding-left: 1.5rem;
+}
+
+.note li {
+  margin-bottom: 0.5rem;
+}
+
+/* Code styling */
+code {
+  background: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .note {
+    font-size: 0.95rem;
+  }
+}

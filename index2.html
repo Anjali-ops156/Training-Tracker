@@ -1,0 +1,1744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Training Tracker</title>
+  <link rel="stylesheet" href="2.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>🚀 Training Tracker</h1>
+    <div class="date-row">
+      <div class="date-left">
+        <label for="datePicker">📅 Select Date:</label>
+        <input type="date" id="datePicker" />
+      </div>
+      <a href="home.html">
+        <button class="nav-button">Go to Home Page</button>
+      </a>
+    </div>
+
+
+
+    <!-- Day 1 -->
+    <section class="section" data-date="2025-06-23">
+      <h2>Day 1: Introduction to React Native and Expo 🚀</h2>
+      <div class="note">
+        <h3>🌅 Start of Day</h3>
+        <p>Today is the first day of my 28-day Hybrid App Development course focused on React Native with Expo. I feel
+          excited to explore this framework because it allows building mobile apps for both Android and iOS using
+          JavaScript and React. My main goal for today is to understand what React Native and Expo are, why they are
+          popular, and how to set up my development environment successfully.</p>
+      </div>
+      <div class="note">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>Attended an introduction session about hybrid app development.</li>
+          <li>Learned the difference between native and hybrid applications.</li>
+          <li>Explored popular frameworks: Ionic, React Native, Flutter, Cordova.</li>
+          <li>Installed Node.js and Ionic CLI.</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h3>🌇 End of Day Experience</h3>
+        <p>I feel more prepared to continue with hands-on setup. I now have a basic understanding of what React Native
+          and Expo are and the benefits they offer in hybrid development. Looking forward to tomorrow's setup!</p>
+      </div>
+      <div class="note">
+        <h3>✅ Tip for Tomorrow</h3>
+        <p>Review today’s concepts and prepare for hands-on installation and configuration.</p>
+      </div>
+    </section>
+
+    <!-- Day 2 -->
+    <section class="section" data-date="2025-06-24">
+      <h2>Day 2: Installation and Environment Setup 🔧</h2>
+      <div class="note">
+        <h3>🌅 Start of Day</h3>
+        <p>Today is the second day of my 28-day journey in React Native with Expo. My goal for the day is to set up the
+          complete development environment, make sure all tools are working correctly, and learn how to create and run
+          my first React Native project.</p>
+      </div>
+      <div class="note">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>🛠️ <strong>Installed Node.js and npm:</strong> Downloaded the LTS version of Node.js.</li>
+          <li>🛠️ <strong>Verified installation:</strong> <code>node -v</code>, <code>npm -v</code></li>
+          <li>🛠️ <strong>Installed Expo CLI:</strong> <code>npm install -g expo-cli</code></li>
+          <li>🛠️ <strong>Checked version:</strong> <code>expo --version</code></li>
+          <li>🏗️ <strong>Created first project:</strong> <code>expo init MyFirstApp</code> (blank template)</li>
+          <li>🚀 <strong>Launched the project:</strong> <code>cd MyFirstApp</code> → <code>npm start</code></li>
+          <li>📱 <strong>Scanned QR code:</strong> Used Expo Go app to view the default screen.</li>
+          <li>🗂️ <strong>Explored project structure:</strong>
+            <ul>
+              <li><code>App.js</code> – main entry point</li>
+              <li><code>app.json</code> – configuration</li>
+              <li><code>assets/</code> – images and fonts</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="note">
+        <h3>🌇 End of Day Experience</h3>
+        <p>I feel accomplished and more confident. All tools were installed successfully, and I could see my app running
+          live on my phone. The Expo CLI made the process very smooth.</p>
+        <p>Tomorrow, I plan to dive into the project structure and core components like <code>View</code>,
+          <code>Text</code>, and <code>Image</code>.
+        </p>
+      </div>
+      <div class="note">
+        <h3>✅ Tip for Tomorrow</h3>
+        <p>Review the default project structure and try editing <code>App.js</code>.</p>
+      </div>
+    </section>
+
+    <!-- Day 3 -->
+    <section class="section" data-date="2025-06-25">
+      <h2>Day 3: Exploring Project Structure & Core Components 📂</h2>
+      <!-- 🌅 Start of Day -->
+      <div class="note">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is the third day of my 28-day React Native with Expo learning plan.
+          My objective was to understand the default project structure created by Expo
+          and to learn about the most commonly used core components in React Native.
+          I planned to create a basic user interface to practice using these components.
+        </p>
+      </div>
+      <!-- 📝 Activities Completed -->
+      <div class="note">
+        <h3>📝 Activities Completed</h3>
+        <ul class="point">
+          <li>Explored the project folders and files:
+            <ul>
+              <li><code>App.js</code> – main entry file</li>
+              <li><code>app.json</code> – app configuration</li>
+              <li><code>assets/</code> – for storing images and icons</li>
+              <li><code>package.json</code> – to track dependencies</li>
+            </ul>
+          </li>
+          <li>Learned about core components:
+            <ul>
+              <li><strong>View</strong> – container for layout</li>
+              <li><strong>Text</strong> – displays text</li>
+              <li><strong>Image</strong> – shows images</li>
+              <li><strong>Button</strong> – creates clickable buttons</li>
+              <li><strong>TextInput</strong> – takes user input</li>
+              <li><strong>ScrollView</strong> – allows scrolling</li>
+            </ul>
+          </li>
+          <li>Practiced writing JSX to create the UI</li>
+          <li>Built a sample screen containing:
+            <ul>
+              <li>A heading</li>
+              <li>A subheading</li>
+              <li>A button that shows an alert on press</li>
+            </ul>
+          </li>
+          <li>Applied basic styling using <code>StyleSheet</code></li>
+          <li>Tested changes in the Expo Go app and observed live updates</li>
+        </ul>
+      </div>
+      <!-- 🌇 End of Day Experience -->
+      <div class="note">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about navigating the project structure and
+          using React Native’s main components. Practicing the code examples helped me
+          understand how to combine layout and interactivity.
+        </p>
+        <p>
+          Tomorrow, I will study styling in more detail, especially how Flexbox works
+          for positioning elements on the screen.
+        </p>
+      </div>
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note">
+        <h3>✅ Tip for Tomorrow</h3>
+        <p>
+          Experiment with creating multiple <code>View</code> sections and practice aligning
+          items using Flexbox properties.
+        </p>
+      </div>
+    </section>
+    <!--day-4-->
+    <section class="section" data-date="2025-06-26">
+      <h2>Day 4: Styling and Flexbox in React Native (with TypeScript) 🎨</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 4 of my 28-day learning journey in React Native with Expo (TypeScript).The focus for today was to
+          understand how to style components properly and use Flexboxfor layouts. Styling is very important in mobile
+          app development to create a clean andresponsive UI, so I was excited to learn how React Native handles this
+          with TypeScript support.
+        </p>
+      </div>
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>🎯 Applied styles using:
+            <ul>
+              <li>Inline styling (for quick changes)</li>
+              <li><code>StyleSheet.create()</code> (for scalable and reusable code)</li>
+            </ul>
+          </li>
+          <li>🎨 Used style properties like:
+            <code>backgroundColor</code>, <code>padding</code>, <code>margin</code>,
+            <code>borderRadius</code>, <code>textAlign</code>, etc.
+          </li>
+          <li>📐 Explored Flexbox layout:
+            <ul>
+              <li><code>flexDirection</code>: row / column</li>
+              <li><code>justifyContent</code>: space-between, center</li>
+              <li><code>alignItems</code>: flex-start, center</li>
+              <li><code>flex</code>: to proportionally distribute space</li>
+            </ul>
+          </li>
+          <li>🧪 Practiced responsive layout using multiple <code>View</code> elements with Flexbox</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          I now have a strong understanding of how styling and layout works in React Native using Flexbox, even with
+          TypeScript.
+          I was able to build and align multiple components in both rows and columns, and the structure looked neat.
+          Styling felt very similar to CSS, but the layout with Flexbox was powerful and responsive.
+        </p>
+        <p>
+          Tomorrow, I will move into handling user inputs and form components.
+        </p>
+      </div>
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow</h3>
+        <p>
+          Explore using <code>TextInput</code> with <code>useState</code> for form inputs,
+          and style the inputs using <code>StyleSheet</code> for a cleaner look.
+        </p>
+      </div>
+    </section>
+
+    <!--day-5-->
+    <section class="section" data-date="2025-06-27">
+      <h2>Day 5: TextInput, Button, and State Handling 📲</h2>
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 5 of my 28-day React Native with Expo (TypeScript) course. My main goal was to learn how to
+          create input fields using <code>TextInput</code> and handle user interactions with <code>Button</code>. I
+          planned to practice capturing and displaying input values using React’s state management with
+          <code>useState</code>.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📥 Learned About <code>TextInput</code>:
+            <ul>
+              <li>Imported from <code>react-native</code></li>
+              <li>Configured placeholder, styles, and value</li>
+            </ul>
+          </li>
+          <li>🔘 Explored <code>Button</code>:
+            <ul>
+              <li>Used <code>onPress</code> to handle clicks</li>
+            </ul>
+          </li>
+          <li>🧠 Used <code>useState</code>:
+            <ul>
+              <li>Stored user input and updated in real-time</li>
+            </ul>
+          </li>
+          <li>⚡ Practiced event handling:
+            <ul>
+              <li>Displayed input on screen</li>
+              <li>Triggered alert on button press</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about handling user input in React Native with TypeScript. Using
+          <code>TextInput</code> along with <code>useState</code> was straightforward and powerful for capturing data.
+          The <code>Button</code> component worked well for triggering actions, and seeing the input displayed on the
+          screen made it clear how state updates work in real time.
+        </p>
+        <p>
+          Tomorrow, I will focus on lists and scrollable content with <code>ScrollView</code> and <code>FlatList</code>.
+        </p>
+      </div>
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Try creating a simple form with multiple <code>TextInput</code> fields and practice validating the input
+          before displaying it.
+        </p>
+      </div>
+    </section>
+
+
+    <!--day-6-->
+    <section class="section" data-date="2025-06-28">
+      <h2>Day 6: State and Props in React Native with TypeScript 🔁</h2>
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 6 of my 28-day React Native with Expo course using TypeScript. My objective was to learn how
+          <code>state</code> and <code>props</code> work to manage data and pass information between components. I
+          planned to create a parent-child component structure where data is passed as props and updated via state.
+        </p>
+      </div>
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📌 Reviewed <code>useState</code>:
+            <ul>
+              <li>Declared state variables with TypeScript.</li>
+              <li>Observed automatic re-renders on state update.</li>
+            </ul>
+          </li>
+          <li>📤 Learned About <code>props</code>:
+            <ul>
+              <li>Passed data from parent to child.</li>
+              <li>Defined prop types using TypeScript interfaces.</li>
+            </ul>
+          </li>
+          <li>🔄 Created Reusable Components:
+            <ul>
+              <li>Child displayed data from parent props.</li>
+              <li>Updated state in parent and saw changes in child.</li>
+            </ul>
+          </li>
+          <li>🔗 Combined State and Props:
+            <ul>
+              <li>Used <code>TextInput</code> to update state and display in child component.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I clearly understood the difference between <code>state</code> and <code>props</code>.
+          State allows components to manage their own data and re-render when it changes, while props enable passing
+          data from parent to child components. Using TypeScript interfaces for prop types made the code cleaner and
+          safer.
+        </p>
+        <p>
+          Tomorrow, I will start working with <code>ScrollView</code> and <code>FlatList</code> to handle lists and
+          scrollable content.
+        </p>
+      </div>
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Review how to create arrays of data and render them dynamically using <code>FlatList</code> with proper
+          TypeScript typings.
+        </p>
+      </div>
+    </section>
+    <!-- Day 7 -->
+    <section class="section" data-date="2025-06-29">
+      <h2>Day 7: ScrollView and FlatList in React Native (with TypeScript) 📜📋</h2>
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 7 of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal was to understand how to display lists of data in an app using
+          <code>ScrollView</code> and <code>FlatList</code>. I planned to learn the differences
+          between the two components and practice rendering dynamic lists.
+        </p>
+      </div>
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>🌀 Reviewed <strong>ScrollView</strong>:
+            <ul>
+              <li>Used for vertically or horizontally scrollable content.</li>
+              <li>Practiced adding multiple <code>Text</code> elements inside it.</li>
+            </ul>
+          </li>
+          <li>📋 Learned About <strong>FlatList</strong>:
+            <ul>
+              <li>Efficient for rendering long lists.</li>
+              <li>Used <code>data</code>, <code>renderItem</code>, and <code>keyExtractor</code>.</li>
+            </ul>
+          </li>
+          <li>📐 Created a TypeScript Interface:
+            <ul>
+              <li>Defined the structure of list items for type safety.</li>
+            </ul>
+          </li>
+          <li>🛠️ Built a Sample App:
+            <ul>
+              <li>Rendered both ScrollView and FlatList.</li>
+              <li>Styled each item for better readability.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- 🌇 End of Day -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt comfortable using both <code>ScrollView</code> and
+          <code>FlatList</code> to display content. <code>ScrollView</code> is simple and good
+          for smaller lists, but <code>FlatList</code> is much better for handling many items
+          efficiently. Defining TypeScript interfaces for the data made the code more organized
+          and easier to understand.
+        </p>
+        <p>
+          Tomorrow, I will learn how to create reusable custom components.
+        </p>
+      </div>
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Try breaking the list item into a separate custom component that receives data via props.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Day 8 -->
+    <section class="section" data-date="2025-06-30">
+      <h2>Day 8: Reusable Custom Components in React Native (with TypeScript) 🧩</h2>
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 8 of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal for the day was to learn how to create reusable custom components to keep my code
+          clean, modular, and easy to maintain. I planned to practice building a separate component
+          to display list items and understand how to pass data into it using props.
+        </p>
+      </div>
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>🔄 Reviewed the difference between <strong>functional components</strong> and
+            <strong>class components</strong>, and learned why functional components with hooks are preferred.
+          </li>
+          <li>📁 Created a <strong>custom component</strong> in a separate file.</li>
+          <li>📐 Defined a <strong>props interface</strong> in TypeScript to describe expected data clearly.</li>
+          <li>📤 Passed data from parent to child component using <strong>props</strong> and verified output.</li>
+          <li>🎨 Applied consistent custom styles to the reusable component.</li>
+          <li>📚 Learned best practices for organizing components and maintaining a structured codebase.</li>
+        </ul>
+      </div>
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt more confident about creating and reusing custom components.
+          Separating logic into smaller parts made the project easier to understand and manage.
+          Using props with TypeScript interfaces helped catch errors early and improved the reliability of my code.
+        </p>
+        <p>
+          Tomorrow, I plan to learn how to navigate between different screens in the app using React Navigation.
+        </p>
+      </div>
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Read about <strong>stack navigation</strong> concepts and prepare to install the necessary navigation
+          libraries.
+        </p>
+      </div>
+    </section>
+
+
+
+    <!-- Day 9 -->
+    <section class="section" data-date="2025-07-01">
+      <h2>Day 9: Navigation in React Native (React Navigation Basics) 🧭</h2>
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 9 of my 28-day React Native with Expo learning journey using TypeScript.
+          My objective was to understand how navigation works in React Native applications.
+          I planned to set up React Navigation and learn how to create a basic stack navigator
+          for moving between screens.
+        </p>
+      </div>
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>🔍 Learned what <strong>React Navigation</strong> is and why it’s widely used for navigation in React
+            Native apps.</li>
+          <li>🧭 Explored different types of navigators:
+            <ul>
+              <li>Stack Navigator</li>
+              <li>Tab Navigator</li>
+              <li>Drawer Navigator</li>
+            </ul>
+          </li>
+          <li>📦 Installed the required dependencies for React Navigation setup.</li>
+          <li>🛠️ Created a <strong>NavigationContainer</strong> and configured basic routes using
+            <code>createNativeStackNavigator</code>.
+          </li>
+          <li>➡️ Practiced screen navigation using the <code>navigation</code> prop.</li>
+          <li>🧩 Learned how navigation state is managed and how headers are automatically added.</li>
+          <li>🎨 Customized screen headers including titles and styles for a cleaner look.</li>
+        </ul>
+      </div>
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident navigating between screens using Stack Navigator.
+          Understanding how screens are defined and connected was crucial.
+          I also appreciated the flexibility of customizing the header and how parameters can be passed during
+          navigation.
+        </p>
+        <p>
+          Tomorrow, I plan to learn how to send and receive data between screens and explore how to strongly type
+          navigation props with TypeScript.
+        </p>
+      </div>
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Try passing route parameters and practice extracting them on the destination screen using
+          <code>route.params</code>.
+          Learn how to define types for both navigation and route props.
+        </p>
+      </div>
+    </section>
+
+    <!-- Day 10 -->
+    <section class="section" data-date="2025-07-02">
+      <h2>Day 10: Navigating Between Screens with Stack Navigator 📘</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 10 of my 28-day React Native with Expo journey using TypeScript. My plan for the day was to
+          practice navigating between different screens using Stack Navigator. I wanted to get comfortable pushing new
+          screens, going back, and passing data from one screen to another.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📖 Reviewed how <strong>Stack Navigator</strong> manages a stack of screens in memory.</li>
+          <li>🧱 Created two screens: <strong>Home</strong> and <strong>Details</strong>.</li>
+          <li>🔧 Set up <strong>NavigationContainer</strong> and configured the stack.</li>
+          <li>🔘 Added a <strong>button</strong> on the Home screen to navigate to the Details screen.</li>
+          <li>📤 Passed parameters like a text string from Home to Details screen.</li>
+          <li>📥 Accessed and displayed passed parameters on the Details screen.</li>
+          <li>🖋️ Dynamically changed the screen title using route parameters.</li>
+          <li>🔙 Tested navigating back while preserving the state of the Home screen.</li>
+          <li>🗂️ Organized screen files into separate components for better structure.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident navigating between screens and using Stack Navigator effectively.
+          Passing data between screens and seeing it update live helped me understand how navigation state works. This
+          made my app feel much more interactive and professional.
+        </p>
+        <p>
+          Tomorrow, I plan to start working with Tab Navigation to learn how to switch between sections of the app.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Prepare a few example screens to test <strong>Tab Navigation</strong> and think about combining <strong>tabs
+            and stacks</strong> together.
+        </p>
+      </div>
+    </section>
+
+
+
+    <!-- Day 11 -->
+    <section class="section" data-date="2025-07-03">
+      <h2>Day 11: Tab and Drawer Navigation 🧭</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 11 of my 28-day React Native with Expo journey using TypeScript.
+          My main objective was to learn how to create navigation with tabs and drawers.
+          I wanted to explore how Tab Navigation helps switch between screens easily and how
+          Drawer Navigation can add a side menu to the app.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📚 Read documentation on <strong>Tab Navigator</strong> and how it allows switching between screens using
+            a bottom tab bar.</li>
+          <li>📦 Installed required packages for tab navigation setup.</li>
+          <li>🔧 Created a <strong>bottom tab navigator</strong> with <strong>Home</strong> and
+            <strong>Settings</strong> tabs.
+          </li>
+          <li>🎨 Added <strong>icons</strong> and <strong>labels</strong> to improve usability.</li>
+          <li>⚙️ Customized tab bar styles (active tint, background color) to match the app theme.</li>
+          <li>🧪 Tested navigation between tabs and observed state preservation.</li>
+          <li>📂 Moved on to <strong>Drawer Navigation</strong> and created a side menu with <strong>Dashboard</strong>,
+            <strong>Profile</strong>, and <strong>Notifications</strong> screens.
+          </li>
+          <li>🎛️ Customized drawer content and labels.</li>
+          <li>📲 Verified drawer toggle via swipe gestures and menu icon tap.</li>
+          <li>🧩 Practiced combining <strong>Stack Navigators inside Tabs and Drawers</strong> for nested navigation.
+          </li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about creating both tab and drawer navigations.
+          Setting up tabs made the app easier to use, and adding a drawer menu created a professional
+          look similar to real apps. I also learned how to organize navigation in a clean way so that
+          different navigators work together without conflicts.
+        </p>
+        <p>
+          Tomorrow, I plan to learn about handling user input validation and form submissions.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Review how to create forms with multiple inputs and practice validating them before submission.
+        </p>
+      </div>
+    </section>
+
+    <!-- Day 12 -->
+    <section class="section" data-date="2025-07-04">
+      <h2>Day 12: Managing App State with Context API 🧠</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 12 of my 28-day React Native with Expo journey using TypeScript.
+          My goal was to learn how to manage app-wide state using the Context API.
+          I wanted to practice sharing data across multiple components without passing props manually at every level.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📘 Studied the <strong>Context API</strong> to understand its use in avoiding prop drilling.</li>
+          <li>🧾 Created a new context file and defined a context object for shared state.</li>
+          <li>📦 Set up a <strong>Context Provider</strong> and wrapped components requiring access to shared data.</li>
+          <li>🪝 Used <code>useState</code> inside the provider to manage the context value.</li>
+          <li>📤 Provided both state and the updater function via context.</li>
+          <li>📥 Accessed context data in components using <code>useContext</code>.</li>
+          <li>🔄 Tested updating state from one component and observing the changes reflected across others.</li>
+          <li>🧹 Reviewed best practices for clean context file and folder structure.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about using the Context API to manage shared state in my app.
+          It was satisfying to see how easily multiple components could react to a single state change without passing
+          props manually.
+          Learning Context helped me understand how to build more scalable and maintainable applications.
+        </p>
+        <p>
+          Tomorrow, I plan to learn about using AsyncStorage to persist data locally.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Explore how to save and load data with <code>AsyncStorage</code> and think about how it could integrate with
+          context state for persistence.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Day 13 -->
+    <section class="section" data-date="2025-07-05">
+      <h2>Day 13: Introduction to Redux in React Native 🔄</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 13 of my 28-day React Native with Expo journey using TypeScript.
+          My goal was to get an introduction to Redux, which is a popular state management library
+          used in many large-scale React and React Native projects. I wanted to understand when and why
+          Redux is used instead of Context API, and learn the basics of how it works.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📖 Read about what Redux is and why it’s used for complex state management.</li>
+          <li>📦 Learned key Redux concepts:
+            <ul>
+              <li><strong>Store</strong> – central source of state</li>
+              <li><strong>Actions</strong> – describe state changes</li>
+              <li><strong>Reducers</strong> – determine how state updates</li>
+            </ul>
+          </li>
+          <li>🔍 Compared Redux with the Context API and saw why Redux is preferred in larger applications.</li>
+          <li>🛠️ Installed <code>redux</code> and <code>react-redux</code>.</li>
+          <li>🧱 Created a basic store and reducer to manage a simple counter state.</li>
+          <li>➕➖ Built actions to increment and decrement the counter.</li>
+          <li>📲 Wrapped the app in <code>Provider</code> to connect the Redux store.</li>
+          <li>🧪 Used <code>useSelector</code> to read the counter state.</li>
+          <li>🚀 Used <code>useDispatch</code> to update state via actions.</li>
+          <li>🔁 Verified re-renders when state changed and UI updated.</li>
+          <li>💡 Typed actions and reducers with TypeScript for safer code.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt comfortable with the basic flow of Redux and how it can centralize
+          state management in a React Native app. Understanding actions, reducers, and the store made it clearer
+          why Redux is powerful for managing complex and shared data.
+        </p>
+        <p>
+          Tomorrow, I plan to learn about integrating Redux Toolkit to simplify Redux setup and reduce boilerplate code.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Review the <a href="https://redux-toolkit.js.org/" target="_blank"><code>Redux Toolkit</code>
+            documentation</a>
+          to see how it improves the developer experience and provides better patterns for modern Redux development.
+        </p>
+      </div>
+    </section>
+
+
+
+    <!-- Day 14 -->
+    <section class="section" data-date="2025-07-06">
+      <h2>Day 14: Connecting Redux with Components 🔗</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 14 of my 28-day React Native with Expo journey using TypeScript.
+          My goal was to learn how to properly connect Redux to my components so they can read data from the store
+          and dispatch actions to update it. I wanted to practice using hooks from React-Redux and see how components
+          automatically re-render when the state changes.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📚 Reviewed Redux concepts: store, actions, and reducers.</li>
+          <li>🛠️ Set up a Redux store to manage a simple counter state.</li>
+          <li>🧩 Wrapped the app with <code>Provider</code> to give components access to the store.</li>
+          <li>📥 Used <code>useSelector</code> to read data from the store.</li>
+          <li>📤 Used <code>useDispatch</code> to dispatch actions from the UI.</li>
+          <li>✅ Tested increment/decrement actions and confirmed UI updates reflected state changes.</li>
+          <li>🔄 Combined multiple slices to simulate real-world state management.</li>
+          <li>🔐 Used TypeScript for typing <code>useSelector</code> and <code>useDispatch</code> for safety and
+            clarity.</li>
+          <li>🎯 Created custom selectors to read only necessary parts of the state, optimizing component performance.
+          </li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about connecting Redux to my components and using hooks to manage
+          state updates.
+          Seeing the UI automatically re-render when the store changed made it clear how powerful and predictable Redux
+          is.
+        </p>
+        <p>
+          Tomorrow, I plan to learn about Redux Toolkit, which simplifies the setup and reduces the amount of
+          boilerplate code needed.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Prepare to install <code>Redux Toolkit</code> and try creating a slice to handle state in a more modern and
+          concise way.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Day 15 -->
+    <section class="section" data-date="2025-07-07">
+      <h2>Day 15: Working with APIs and Fetching Data 🌐</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 15 of my 28-day React Native with Expo journey using TypeScript.
+          My main goal was to learn how to fetch data from external APIs and display it in my app.
+          I wanted to understand how to handle asynchronous operations, loading states, and errors.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>🔄 Reviewed how the <code>fetch</code> API works in JavaScript and React Native.</li>
+          <li>📡 Created an async function to call a public API.</li>
+          <li>⏳ Used <code>useEffect</code> to fetch data on component mount.</li>
+          <li>⏱️ Implemented loading state to show a spinner or message while data loads.</li>
+          <li>🚨 Handled errors with error state to catch and display any issues.</li>
+          <li>💾 Stored fetched data in component state using <code>useState</code>.</li>
+          <li>📃 Displayed API results in a list on the screen.</li>
+          <li>🧹 Formatted and cleaned up API data before rendering it in the UI.</li>
+          <li>📁 Practiced organizing API logic into separate helper files.</li>
+          <li>🔐 Typed API response structure with TypeScript interfaces for safety.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt much more confident about working with APIs and managing asynchronous data in my
+          React Native app.
+          I understood how important it is to handle loading and error states to create a smooth user experience.
+        </p>
+        <p>
+          Tomorrow, I plan to learn about using Axios for data fetching and explore how it compares to the
+          <code>fetch</code> API.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Install <code>Axios</code> and try rewriting your fetch logic with Axios to see how the syntax and error
+          handling differ.
+        </p>
+      </div>
+    </section>
+
+
+
+    <!-- Day 16 -->
+    <section class="section" data-date="2025-07-08">
+      <h2>Day 16: Handling Loading States and Errors ⏳⚠️</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 16 of my 28-day React Native with Expo learning journey using TypeScript.
+          My main goal was to improve the user experience of data fetching by managing loading indicators and displaying
+          error messages.
+          I wanted to make sure my app clearly communicates what’s happening while data is loading or if something goes
+          wrong.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>🔁 Reviewed previous API fetching code from Day 15.</li>
+          <li>⏱️ Created a <code>loading</code> state to track data fetching progress.</li>
+          <li>⚙️ Updated logic to toggle loading state before and after the fetch operation.</li>
+          <li>🌀 Displayed loading indicators (text or spinner) while data was loading.</li>
+          <li>🚨 Created an <code>error</code> state to capture error messages.</li>
+          <li>📛 Rendered user-friendly error messages when fetch requests failed.</li>
+          <li>🧪 Simulated error scenarios using broken URLs or offline mode for testing.</li>
+          <li>🧹 Cleared error state before retrying fetch to prevent stale messages.</li>
+          <li>🔍 Used conditional rendering to show loading, error, or data depending on state.</li>
+          <li>✅ Reviewed why loading/error handling improves app usability and UX.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about handling loading and error states in React Native.
+          I understood how these small improvements can make a big difference in user experience by providing clear
+          feedback and preventing confusion.
+        </p>
+        <p>
+          Tomorrow, I plan to start learning how to use navigation parameters together with fetched data to create
+          dynamic detail screens.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Think about how you can pass fetched item data to another screen and display details without making a second
+          API call.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Day 17 -->
+    <section class="section" data-date="2025-07-09">
+      <h2>Day 17: Storing Data Locally (AsyncStorage) 💾</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 17 of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal was to learn how to store data locally on the device so that important information can be saved
+          and retrieved even after the app is closed and reopened. I planned to practice using AsyncStorage,
+          which is a simple key-value storage system for React Native.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📖 Learned what AsyncStorage is and its typical use cases like storing user preferences and small app
+            data.</li>
+          <li>🔧 Installed AsyncStorage and integrated it into my Expo project.</li>
+          <li>💾 Used <code>setItem</code> to store string values and <code>getItem</code> to retrieve them.</li>
+          <li>📲 Practiced saving user input and confirmed it persisted across app restarts.</li>
+          <li>🧠 Checked for stored data at app launch and initialized state accordingly.</li>
+          <li>🔁 Updated and overwrote stored values and verified correct behavior.</li>
+          <li>🗑️ Used <code>removeItem</code> to clear data when needed (like for a reset feature).</li>
+          <li>🧾 Learned to store JSON data by stringifying before saving and parsing after loading.</li>
+          <li>⏳ Showed loading indicators while fetching stored data on app initialization.</li>
+          <li>🔐 Explored security best practices and noted AsyncStorage is not suitable for sensitive data.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about using AsyncStorage to save and retrieve small pieces of data
+          locally.
+          Seeing my app remember user input after restarting felt very satisfying and showed me how important
+          persistence is in real-world apps.
+        </p>
+        <p>
+          Tomorrow, I plan to learn how to build and style forms with multiple inputs and validation.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Think about which kinds of data your app might need to persist, and prepare examples to practice storing and
+          retrieving them.
+        </p>
+      </div>
+    </section>
+
+    <!-- Day 18 -->
+    <section class="section" data-date="2025-07-10">
+      <h2>Day 18: Using Images and Icons in the App 🖼️✨</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 18 of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal was to learn how to display images and add icons in my app to make the interface more visually
+          appealing and professional.
+          I planned to practice loading both local and remote images and integrating icon libraries.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>🖼️ Used the <code>Image</code> component in React Native to display pictures.</li>
+          <li>📁 Loaded local images from the <code>assets/</code> folder and displayed them in components.</li>
+          <li>🌐 Fetched remote images using URLs and confirmed correct rendering in the UI.</li>
+          <li>🛠️ Styled images using <code>resizeMode</code>, <code>width</code>, <code>height</code>, and
+            <code>borderRadius</code>.
+          </li>
+          <li>🚀 Learned about image caching for better performance and loading speed.</li>
+          <li>🔤 Installed and used <code>@expo/vector-icons</code> for vector-based icons.</li>
+          <li>🔔 Placed icons next to text and buttons to enhance clarity and navigation.</li>
+          <li>🎨 Customized icon <code>size</code>, <code>color</code>, and <code>alignment</code> to match the UI.</li>
+          <li>📂 Reviewed best practices for managing image assets and maintaining a clean directory structure.</li>
+          <li>♿ Used <code>accessibilityLabel</code> on images and icons to improve accessibility.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident using images and icons to enhance my app’s visual appearance.
+          Working with both local and remote resources helped me understand how to handle different scenarios.
+          Tomorrow, I plan to learn about adding animations and transitions to make interactions smoother and more
+          engaging.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Look into the <code>Animated</code> API from React Native and experiment with simple fade or slide animations.
+        </p>
+      </div>
+    </section>
+
+    <!-- Day 19 -->
+    <section class="section" data-date="2025-07-11">
+      <h2>Day 19: Building Forms and Validation 📝✅</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 19 of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal was to learn how to create forms with multiple inputs and validate user input to make sure the data
+          entered is correct.
+          I planned to practice collecting form data, handling submission, and displaying validation messages.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📄 Built forms using multiple <code>TextInput</code> fields (e.g., name, email, password).</li>
+          <li>🧠 Stored form values in state using the <code>useState</code> hook.</li>
+          <li>🛠️ Created a submit button to handle form submissions.</li>
+          <li>🚫 Implemented basic validation logic to ensure required fields were filled in.</li>
+          <li>📧 Validated email format with a simple regex check.</li>
+          <li>⚠️ Displayed validation error messages below inputs.</li>
+          <li>🎨 Styled inputs with visual error cues (e.g., red borders).</li>
+          <li>🔄 Cleared validation errors dynamically as the user typed.</li>
+          <li>📚 Explored form libraries like <code>Formik</code> and <code>Yup</code> for advanced handling (to use
+            later).</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about building forms and adding validation to ensure data quality.
+          It was satisfying to see the form reject invalid entries and provide clear feedback to the user.
+          Tomorrow, I plan to start learning how to add animations and smooth transitions to improve the user
+          experience.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Consider thinking about which animations could help highlight validation errors or make the app feel more
+          polished.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Day 20 -->
+    <section class="section" data-date="2025-07-12">
+      <h2>Day 20: Using Device Features (Camera, Location) 📷📍</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 20 of my 28-day React Native with Expo learning journey using TypeScript.
+          My main goal was to learn how to access device features like the camera and location
+          to make the app more dynamic and interactive. I planned to practice capturing photos
+          and getting the user’s current location.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>📷 Explored the Expo Camera module to understand permissions and usage.</li>
+          <li>🔐 Implemented camera permission requests and handled denial cases gracefully.</li>
+          <li>📸 Opened the device camera, captured a photo, and displayed it in the app.</li>
+          <li>🗑️ Implemented logic to save or discard captured photos.</li>
+          <li>📍 Used the Expo Location module to get the user's geolocation.</li>
+          <li>📲 Requested location permissions and displayed latitude and longitude.</li>
+          <li>🛰️ Tested real-time location updates by moving and observing coordinate changes.</li>
+          <li>🧭 Reviewed best practices for requesting permissions with user-friendly messages.</li>
+          <li>💡 Thought about use cases for camera + location integration (e.g., check-ins, delivery tracking).</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt excited about how easy Expo makes it to use device hardware.
+          Being able to capture photos and read live location felt like an important milestone
+          toward building full-featured apps. Tomorrow, I plan to learn how to add animations
+          and transitions to improve the visual experience.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Make sure to clean up permissions handling and test camera and location features
+          on a real device for the best results.
+        </p>
+      </div>
+    </section>
+
+    <!-- Day 21 -->
+    <section class="section" data-date="2025-07-13">
+      <h2>Day 21: Notifications and Permissions 🔔🔐</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 21 of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal was to learn how to send notifications to the user and understand how to
+          request and manage permissions properly. I planned to practice scheduling notifications
+          and handling user consent for different app features.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities Completed</h3>
+        <ul>
+          <li>🔍 Read about push vs. local notifications and their use cases.</li>
+          <li>📦 Installed <code>expo-notifications</code> and configured it for local alerts.</li>
+          <li>🔐 Requested notification permissions and handled denial gracefully.</li>
+          <li>🕒 Scheduled a local notification to trigger after a delay.</li>
+          <li>📝 Customized the title, body, and payload of the notification.</li>
+          <li>🧭 Handled notification taps by navigating the user to a specific screen.</li>
+          <li>📋 Reviewed permission best practices and user-friendly prompts.</li>
+          <li>📱 Tested permissions for camera and location to observe Expo unified handling.</li>
+          <li>❌ Practiced canceling scheduled notifications to manage them dynamically.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about managing notifications and permissions in my app.
+          Understanding how to ask for consent respectfully and show useful alerts made my app feel
+          more polished and professional. Tomorrow, I plan to learn about testing and debugging
+          techniques to improve app stability.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Consider testing notifications on a real device, since many notification features
+          do not work in emulators.
+        </p>
+      </div>
+    </section>
+
+    <!-- Day 22 -->
+    <section class="section" data-date="2025-07-14">
+      <h2>Day 22: Animations and Transitions 🎞️✨</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 22 of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal was to explore how to make the app feel smoother and more modern by adding animations and transitions.
+          I wanted to learn both simple and interactive animations that improve the user experience.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities I Performed</h3>
+        <ul>
+          <li>📚 Learned about the <code>Animated</code> API in React Native and its flexibility.</li>
+          <li>🎬 Practiced basic animations like fade in, slide in, and scale using <code>Animated.Value</code> and
+            <code>Animated.timing()</code>.
+          </li>
+          <li>🖱️ Triggered animations on component mount and user interaction.</li>
+          <li>📐 Used Layout Animations to smoothly handle layout changes like showing/hiding elements.</li>
+          <li>🔁 Explored transitions between screens using React Navigation’s transition options.</li>
+          <li>🚀 Optimized performance by minimizing unnecessary re-renders during animations.</li>
+          <li>🔗 Learned how to chain and combine multiple animations using <code>Animated.sequence</code> and
+            <code>Animated.parallel</code>.
+          </li>
+          <li>📱 Tested animations on a real device to assess smoothness and responsiveness.</li>
+          <li>🧩 Explored libraries like Reanimated and Moti, but stuck to the built-in Animated API for practice.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I was really happy with how much smoother my app felt with just a few animations.
+          Even small transitions made a big difference in the overall feel. I also started thinking about how animations
+          can be used to guide users’ attention. Tomorrow, I plan to focus on testing and debugging my app to ensure
+          everything is working as expected.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Use tools like Expo’s logs and the React Native Debugger to track errors and fix issues quickly.
+        </p>
+      </div>
+    </section>
+
+    <!-- Day 23 -->
+    <section class="section" data-date="2025-07-15">
+      <h2>Day 23: Optimizing Performance ⚡📱</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 23 of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal was to learn how to improve the performance of my app so it feels fast and responsive,
+          especially on lower-end devices. I wanted to understand common performance issues and the best practices to
+          avoid them.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities I Performed</h3>
+        <ul>
+          <li>📉 Studied common performance bottlenecks like re-renders and oversized images.</li>
+          <li>🛠️ Used React DevTools and the Performance Monitor to track frame rate and memory usage.</li>
+          <li>📋 Optimized <code>FlatList</code> with <code>keyExtractor</code>, <code>getItemLayout</code>, and
+            <code>initialNumToRender</code>.
+          </li>
+          <li>📦 Applied <code>React.memo</code> to skip unnecessary component updates.</li>
+          <li>🖼️ Resized and compressed images to reduce load time and memory usage.</li>
+          <li>📥 Implemented lazy loading for non-critical components to speed up the initial render.</li>
+          <li>🪶 Reduced bundle size by importing only what was needed from third-party libraries.</li>
+          <li>📱 Tested on a real device to evaluate real-world performance.</li>
+          <li>📊 Used profiling tools to detect and fix slow operations.</li>
+          <li>🎨 Improved styling efficiency and avoided inline functions in render methods.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt much more prepared to build apps that run smoothly.
+          It was satisfying to see clear performance improvements after making changes.
+          I also realized that good performance requires planning and testing throughout development, not just at the
+          end.
+          Tomorrow, I plan to focus on publishing my app to app stores and understanding the release process.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Prepare your app icons, splash screens, and metadata ahead of time to make publishing smoother.
+        </p>
+      </div>
+    </section>
+
+    <!-- Day 24 -->
+    <section class="section" data-date="2025-07-16">
+      <h2>Day 24: App Theming and Dark Mode 🎨🌙</h2>
+
+      <!-- 🌅 Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 24 of my 28-day React Native with Expo learning journey using TypeScript.
+          My main goal was to learn how to implement theming and support dark mode to make my app look modern and
+          accessible.
+          I planned to explore how to define colors, switch themes dynamically, and respect the user’s system
+          preferences.
+        </p>
+      </div>
+
+      <!-- 📝 Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities I Performed</h3>
+        <ul>
+          <li>📖 Read about the importance of theming for visual consistency and accessibility.</li>
+          <li>🎨 Created a <code>theme</code> object with primary, background, and text color variables.</li>
+          <li>🛠️ Set up a theme context or toggle logic to switch between light and dark themes.</li>
+          <li>💡 Replaced hardcoded colors with theme-based values in styles.</li>
+          <li>🔘 Added a manual toggle button to switch themes dynamically.</li>
+          <li>🌓 Used the <code>useColorScheme</code> hook to detect system-wide color preferences.</li>
+          <li>🔄 Made components adapt automatically to light/dark mode changes.</li>
+          <li>✅ Ensured high contrast and good readability in both modes.</li>
+          <li>🖼️ Adjusted icons and image assets to suit dark backgrounds.</li>
+          <li>💭 Considered future support for custom branding and theme extensions.</li>
+        </ul>
+      </div>
+
+      <!-- 🌇 End of Day Experience -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt confident about implementing theming and dark mode in React Native.
+          It was great to see the app respond instantly to theme changes, and it looked much more professional
+          with proper color handling. Tomorrow, I plan to learn about publishing the app to app stores and
+          understanding all the steps required to prepare a production build.
+        </p>
+      </div>
+
+      <!-- ✅ Tip for Tomorrow -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Make sure to test your themed UI thoroughly to catch any places where colors don’t look right in dark mode.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- day-25 -->
+    <section class="section" id="day25" data-date="2025-07-17">
+      <div class="day-header">
+        <h2>Day 25: Preparing App for Deployment 🚀📱</h2>
+        <span class="date">Date = July 25, 2025</span>
+      </div>
+
+      <!-- Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 25 of my 28-day React Native with Expo learning journey using TypeScript.
+          My main goal was to understand how to get my app ready for deployment to app stores.
+          I planned to learn about optimizing the build, configuring app details, and preparing
+          the assets needed for publishing.
+        </p>
+      </div>
+
+      <!-- Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities I Performed</h3>
+        <ul>
+          <li>📦 Reviewed the Expo build process for creating production-ready builds.</li>
+          <li>🛠️ Updated <code>app.json</code> with app name, version, orientation, and icon settings.</li>
+          <li>🖼️ Prepared icons and splash screens in the correct formats and dimensions.</li>
+          <li>✅ Tested the app in production mode to catch any hidden issues.</li>
+          <li>🧹 Cleaned up unused files and ensured all dependencies were current.</li>
+          <li>🔏 Configured Android app signing and created a release keystore.</li>
+          <li>📱 Reviewed iOS provisioning steps and certificates needed for App Store deployment.</li>
+          <li>🔧 Generated a release build using <code>eas build</code> with Expo.</li>
+          <li>🔐 Verified that all permissions and privacy declarations were included and correct.</li>
+          <li>📝 Prepared an app submission checklist with screenshots, descriptions, and privacy policy.</li>
+        </ul>
+      </div>
+
+      <!-- End of Day -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt prepared to build and submit my app.
+          Going through the deployment steps made me realize how important it is
+          to pay attention to details like assets, versioning, and permissions.
+          Tomorrow, I plan to learn more about monitoring my app after it’s published
+          and updating it regularly.
+        </p>
+      </div>
+
+      <!-- Tip -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Test your release build thoroughly on a real device to catch any issues
+          that don’t show up in development mode.
+        </p>
+      </div>
+    </section>
+
+
+    <!--day-26-->
+    <section class="section" id="day26" data-date="2025-07-18">
+      <div class="day-header">
+        <h2>Day 26: Testing the Application 🧪📱</h2>
+        <span class="date">Date = July 26, 2025</span>
+      </div>
+
+      <!-- Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 26 of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal was to learn how to test my app thoroughly to ensure it works correctly and
+          consistently before releasing it to users. I planned to explore both manual and automated
+          testing approaches.
+        </p>
+      </div>
+
+      <!-- Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities I Performed</h3>
+        <ul>
+          <li>📚 Reviewed types of testing: unit, integration, and end-to-end testing.</li>
+          <li>📱 Used Expo Go and physical devices to manually test app functionality and layout across devices.</li>
+          <li>🧪 Manually tested:
+            <ul>
+              <li>✔️ Form submissions and validation</li>
+              <li>🧭 Navigation between screens</li>
+              <li>⏳ Loading states and error handling</li>
+              <li>🌗 Dark mode toggling</li>
+              <li>📷 Camera and 📍 location features</li>
+            </ul>
+          </li>
+          <li>🧰 Set up <code>Jest</code> as the test runner for writing unit tests.</li>
+          <li>🧱 Wrote tests to verify component rendering with props.</li>
+          <li>🧪 Used React Native Testing Library to simulate interactions like button presses and text input.</li>
+          <li>📦 Created mock data and mock API calls for isolated testing.</li>
+          <li>🧪 Tested the production build to uncover environment-specific issues.</li>
+          <li>✅ Created a final testing checklist for deployment readiness.</li>
+        </ul>
+      </div>
+
+      <!-- End of Day -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt much more confident about the stability and reliability of my app.
+          Testing helped me catch a few small bugs I hadn’t noticed before, and it was reassuring to know
+          that my main features worked as intended. Tomorrow, I plan to learn about monitoring the app
+          after deployment and planning future updates.
+        </p>
+      </div>
+
+      <!-- Tip -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Consider setting up crash reporting and analytics so you can track any issues
+          users encounter in the real world.
+        </p>
+      </div>
+    </section>
+
+
+
+    <!--day-27-->
+    <section class="section" id="day27" data-date="2025-07-19">
+      <div class="day-header">
+        <h2>Day 27: Publishing the App to App Stores 🚀📲</h2>
+        <span class="date">Date = July 27, 2025</span>
+      </div>
+
+      <!-- Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 27 of my 28-day React Native with Expo learning journey using TypeScript.
+          My main goal was to publish my app to the Google Play Store and prepare it for the Apple App Store.
+          I wanted to understand every step required to get my app into the hands of real users.
+        </p>
+      </div>
+
+      <!-- Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities I Performed</h3>
+        <ul>
+          <li>📚 Reviewed Expo documentation for production builds and store publishing.</li>
+          <li>⚙️ Finalized <code>app.json</code> with:
+            <ul>
+              <li>✔️ App name and version</li>
+              <li>🖼️ App icon and splash screen</li>
+              <li>🔐 Permissions declarations</li>
+              <li>🔗 Privacy policy URL</li>
+            </ul>
+          </li>
+          <li>🏗️ Ran <code>eas build</code> to generate a signed Android App Bundle (AAB).</li>
+          <li>🛠️ Set up Google Play Developer Console:
+            <ul>
+              <li>📝 App title, description, and screenshots</li>
+              <li>🖼️ Feature graphic and icon</li>
+              <li>📋 Content rating and distribution settings</li>
+            </ul>
+          </li>
+          <li>📤 Uploaded the AAB and submitted the app for review on the Play Store.</li>
+          <li>📖 Reviewed Play Store policies and guidelines to avoid common rejections.</li>
+          <li>🍏 For iOS:
+            <ul>
+              <li>🔐 Learned about provisioning profiles and certificates</li>
+              <li>🧾 Prepared metadata and assets for App Store Connect</li>
+              <li>📦 Configured Apple Developer account and listing</li>
+            </ul>
+          </li>
+          <li>🔍 Reviewed release notes and verified production builds matched the tested version.</li>
+          <li>📨 Received confirmation that my Android app was submitted and awaiting review.</li>
+        </ul>
+      </div>
+
+      <!-- End of Day -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt proud to have reached the publishing milestone.
+          It was rewarding to see everything I had built over the last month finally packaged and ready for users.
+          Although the process had a lot of details, breaking it into steps made it manageable.
+          Tomorrow, I plan to learn about maintaining and updating the app after launch,
+          including tracking analytics and gathering user feedback.
+        </p>
+      </div>
+
+      <!-- Tip -->
+      <div class="note tip">
+        <h3>✅ Tip for Tomorrow:</h3>
+        <p>
+          Be ready to respond quickly to any issues that show up after publishing,
+          and prepare a checklist for releasing updates smoothly.
+        </p>
+      </div>
+    </section>
+
+
+
+    <!--day-28-->
+    <section class="section" id="day28" data-date="2025-07-20">
+      <div class="day-header">
+        <h2>Day 28: Reviewing and Improving the App 🛠️🚀</h2>
+        <span class="date">Date = July 28, 2025</span>
+      </div>
+
+      <!-- Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Today is Day 28—the final day of my 28-day React Native with Expo learning journey using TypeScript.
+          My goal was to review the entire project, identify areas to improve, and plan next steps to keep the app
+          evolving after launch.
+          I wanted to reflect on everything I learned and think critically about how to make the app even better.
+        </p>
+      </div>
+
+      <!-- Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities I Performed</h3>
+        <ul>
+          <li>✅ Retested core features, including:
+            <ul>
+              <li>🧭 Navigation flows</li>
+              <li>📝 Forms and validation</li>
+              <li>🌐 Data fetching and error handling</li>
+              <li>💾 Local storage with AsyncStorage</li>
+              <li>📷 Camera and 📍 location permissions</li>
+              <li>🎨 Theming and dark mode support</li>
+            </ul>
+          </li>
+          <li>📱 Reviewed app performance across multiple devices.</li>
+          <li>🧩 Checked for UI inconsistencies and accessibility improvements.</li>
+          <li>📊 Set up basic analytics to track user behavior and screen visits.</li>
+          <li>🧠 Made a feature backlog including:
+            <ul>
+              <li>🔐 User authentication</li>
+              <li>📴 Offline support</li>
+              <li>🎞️ Enhanced animations</li>
+              <li>🌍 Localization support</li>
+            </ul>
+          </li>
+          <li>🖼️ Updated app store listings (screenshots, descriptions, icons).</li>
+          <li>🚀 Learned about Expo EAS Update for shipping over-the-air improvements.</li>
+          <li>📝 Reviewed user feedback and planned a maintenance/update schedule.</li>
+          <li>🎓 Reflected on all 28 days of growth and skills gained.</li>
+        </ul>
+      </div>
+
+      <!-- End of Day -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          At the end of the day, I felt accomplished and grateful for this learning journey.
+          Reviewing the project gave me confidence that I can now build, improve, and maintain real-world React Native
+          apps.
+          I also realized that continuous iteration is key to creating great user experiences.
+          This project is just the beginning, and I’m excited to keep building.
+        </p>
+      </div>
+
+      <!-- Tip -->
+      <div class="note tip">
+        <h3>✅ Tip for the Future:</h3>
+        <p>
+          Keep a habit of reviewing your app regularly, gathering feedback, and prioritizing improvements based on what
+          users need most.
+        </p>
+      </div>
+    </section>
+
+    <!--day-29-->
+    <section class="section" id="day29" data-date="2025-07-21">
+      <div class="day-header">
+        <h2>Day 29: Post-Launch Review and Planning 🔄📈</h2>
+        <span class="date">Date = July 29, 2025</span>
+      </div>
+
+      <!-- Start of Day -->
+      <div class="note start-day">
+        <h3>🌅 Start of Day</h3>
+        <p>
+          Although my 28-day journey officially ended yesterday, I decided to log one more day to reflect on early
+          feedback,
+          check how the app is performing post-launch, and begin planning the next development phase.
+        </p>
+      </div>
+
+      <!-- Activities Completed -->
+      <div class="note activities-completed">
+        <h3>📝 Activities I Performed</h3>
+        <ul>
+          <li>📊 Monitored app analytics to understand user behavior (most visited screens, session time).</li>
+          <li>📝 Read and categorized initial user feedback from testers and friends.</li>
+          <li>🐛 Logged reported bugs and prioritized them for the next patch.</li>
+          <li>🧭 Reviewed app store performance (views, installs, ratings if available).</li>
+          <li>🛠️ Drafted a roadmap for upcoming features and improvements.</li>
+          <li>🔄 Created a content update plan using Expo EAS Update.</li>
+          <li>🧪 Set up crash reporting tools to automatically catch errors in production.</li>
+        </ul>
+      </div>
+
+      <!-- End of Day -->
+      <div class="note end-day">
+        <h3>🌇 End of Day Experience</h3>
+        <p>
+          I’m proud of everything I’ve built and learned over the past month. Taking this extra day to look forward
+          helped me realize
+          that releasing an app is not the end — it's the beginning of a new cycle of learning and growth.
+          I’m excited to continue evolving this project with real user needs in mind.
+        </p>
+      </div>
+
+      <!-- Tip -->
+      <div class="note tip">
+        <h3>✅ Tip for the Future:</h3>
+        <p>
+          Set aside regular time after release to monitor app performance, fix bugs, and collect user feedback — it's
+          where the real product development begins.
+        </p>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Add more sections for Day 4 to Day 28 below this -->
+
+  </div>
+
+  <script src="3.js"></script>
+</body>
+
+</html>
